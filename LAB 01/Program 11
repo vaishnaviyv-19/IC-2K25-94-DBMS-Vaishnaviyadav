@@ -1,0 +1,6 @@
+-- 11. Write a  statement to create a table named countries including columns country_id, country_name and region_id and make sure that the country_id column will be a key field which will not contain any duplicate data at the time of insertion.
+CREATE TABLE countries (
+    country_id VARCHAR(10) NOT NULL PRIMARY KEY,
+    country_name VARCHAR(50),
+    region_id DECIMAL(10,0)
+);
