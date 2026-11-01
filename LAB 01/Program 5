@@ -1,0 +1,6 @@
+/*5. Write a  statement to create a table countries set a constraint NULL.*/
+CREATE TABLE countries (
+    country_id VARCHAR(10) NULL,
+    country_name VARCHAR(50) NULL,
+    region_id DECIMAL(10,0) NULL
+);
