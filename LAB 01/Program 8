@@ -1,0 +1,9 @@
+/*-- 8. Write a  statement to create a table named job_histry including columns employee_id, start_date, end_date, job_id and department_id and make sure that the value against column end_date will be entered at the time of insertion to the format like '--/--/----'.*/
+CREATE TABLE job_histry (
+    employee_id INT,
+    start_date DATE,
+    end_date VARCHAR(10),
+    job_id VARCHAR(10),
+    department_id INT,
+    CHECK (end_date REGEXP '^[0-9]{2}/[0-9]{2}/[0-9]{4}$')
+);
