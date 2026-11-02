@@ -1,0 +1,5 @@
+/* 16. Get the length of employee names (first_name, last_name) */
+SELECT first_name, last_name,
+       LENGTH(first_name) AS first_name_length,
+       LENGTH(last_name) AS last_name_length
+FROM employees;
