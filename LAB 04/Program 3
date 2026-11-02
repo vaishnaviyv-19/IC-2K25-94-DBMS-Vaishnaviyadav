@@ -1,0 +1,3 @@
+/* 3. Write a query to get the minimum salary from employees table */
+SELECT MIN(salary) AS minimum_salary
+FROM employees;
