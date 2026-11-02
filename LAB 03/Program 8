@@ -1,0 +1,4 @@
+/* 8. Display last names of employees having 'e' as the third character */
+SELECT last_name
+FROM employees
+WHERE last_name LIKE '__e%';
