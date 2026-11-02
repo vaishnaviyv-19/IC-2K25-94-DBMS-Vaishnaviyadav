@@ -1,0 +1,5 @@
+/* 5. Display first names of employees having both 'b' and 'c' in their first name */
+SELECT first_name
+FROM employees
+WHERE first_name LIKE '%b%'
+AND first_name LIKE '%c%';
