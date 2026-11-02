@@ -1,0 +1,4 @@
+/* 3. Display all employee details in descending order of first name */
+SELECT *
+FROM employees
+ORDER BY first_name DESC;
