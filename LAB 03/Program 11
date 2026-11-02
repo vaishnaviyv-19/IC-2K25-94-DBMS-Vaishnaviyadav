@@ -1,0 +1,4 @@
+/* 11. Select all records from employees where last name is BLAKE, SCOTT, KING or FORD */
+SELECT *
+FROM employees
+WHERE last_name IN ('BLAKE', 'SCOTT', 'KING', 'FORD');
