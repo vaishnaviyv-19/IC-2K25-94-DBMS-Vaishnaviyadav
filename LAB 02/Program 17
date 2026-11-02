@@ -1,0 +1,4 @@
+/* 17. Check if first_name fields contain numbers */
+SELECT first_name
+FROM employees
+WHERE REGEXP_LIKE(first_name, '[0-9]');
