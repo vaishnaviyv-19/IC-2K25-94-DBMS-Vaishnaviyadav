@@ -1,0 +1,4 @@
+/* 5. Display employee ID, first name, last name and salary in ascending order of salary */
+SELECT employee_id, first_name, last_name, salary
+FROM employees
+ORDER BY salary ASC;
