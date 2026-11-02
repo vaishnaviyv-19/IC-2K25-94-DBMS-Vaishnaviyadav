@@ -1,0 +1,4 @@
+/* 8. Find the average salary and number of employees in employees table */
+SELECT AVG(salary) AS average_salary,
+       COUNT(*) AS total_employees
+FROM employees;
